@@ -1,0 +1,20 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    transition: all 255ms linear;
+}
+
+.bg-img-header {
+    background-image: url("../images/header-bg-img.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.menulist.active {
+    right: 0;
+}
